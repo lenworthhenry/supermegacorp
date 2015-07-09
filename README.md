@@ -1,4 +1,13 @@
-# Super Mega Corp
-This repository is for the AWS Internal Hackathon demonstrations this week.  The code will be deployed on two EC2 machines created by ECS in their own VPC.  DynamoDB will be the db client used for data access.
-This application consists of two components:  the server which is a NodeJS powered web service and the front end which is an Angular Client Side application that uses the service for all business logic and data needs.
-An example startup MEAN Stack app for AWS Demonstrations
+passport-mongo
+==============
+
+This repository serves as an example of a basic Node.js application which is using [Passport](http://passportjs.org/) as the authentication middleware for authenticating against a locally configured Mongo backend
+
+Steps to run the app
+=====================
+* After cloning the repo, install the dependencies by running **npm install**
+* To start the server, run **npm start** on the base directory
+
+Perquisites
+============
+The server assumes that you have a local mongo instance running. This means if you have mongo installed locally, all you need to do is configure the db.js file correctly and run the mongod daemon
