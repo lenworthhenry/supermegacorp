@@ -34,4 +34,4 @@ EXPOSE  3000
 
 
 #Fire it up, Fire it up, Fire it up
-cmd ["npm" , "start"]
+#cmd ["npm" , "start"]
